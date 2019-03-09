@@ -1,54 +1,42 @@
-//Helper Function
-function arrayIncludes(arr, values) {
-	let allGood = true
-	for (let i = 0; i < values.length; i++) {
-		if (!arr.includes(values[i])) {
-			allGood = false
-			break
-		}
-	}
-	return allGood
-}
-
 //Test Suite
-describe('js-day1-basic-assessment', function() {
-  describe('Problem 1 - myName', function () {
-    it('myName variable should exist', function () {
-      expect(myName).toBeDefined()
-    })
-    it('should be the correct data type', function () {
-      expect(typeof myName).toBe('string')
-    })
-  })
-  describe('Problem 2 - myAge', function () {
-    it('myAge variable should exist', function () {
-      expect(myAge).toBeDefined()
-    })
-    it('should be the correct data type', function () {
-      expect(typeof myAge).toBe('number')
-    })
-  })
-  describe('Problem 3 - myName', function () {
-    it('lovesCode variable should exist', function () {
-      expect(lovesCode).toBeDefined()
-    })
-    it('should be the correct data type', function () {
-      expect(typeof lovesCode).toBe('boolean')
-    })
-  })
-  describe('Problem 4 - greatestFear', function () {
-    it('greatestFear variable should exist', function () {
-      expect(greatestFear).toBeUndefined()
-    })
-  })
-  describe('Problem 5 - devMountainGoal', function () {
-    it('devMountainGoal variable should exist', function () {
-      expect(devMountainGoal).toBeDefined()
-    })
-    it('should be the correct data type', function () {
-      expect(typeof devMountainGoal).toBe('object')
-    })
-  })
+describe('Week Two Skills Check', function() {
+	describe('Problem 1 - myName', function() {
+		it('myName variable should exist', function() {
+			expect(myName).toBeDefined()
+		})
+		it('should be the correct data type', function() {
+			expect(typeof myName).toBe('string')
+		})
+	})
+	describe('Problem 2 - faveNum', function() {
+		it('faveNum variable should exist', function() {
+			expect(faveNum).toBeDefined()
+		})
+		it('should be the correct data type', function() {
+			expect(typeof faveNum).toBe('number')
+		})
+	})
+	describe('Problem 3 - myName', function() {
+		it('lovesCode variable should exist', function() {
+			expect(lovesCode).toBeDefined()
+		})
+		it('should be the correct data type', function() {
+			expect(typeof lovesCode).toBe('boolean')
+		})
+	})
+	describe('Problem 4 - greatestFear', function() {
+		it('greatestFear variable should exist', function() {
+			expect(greatestFear).toBeUndefined()
+		})
+	})
+	describe('Problem 5 - devMountainGoal', function() {
+		it('devMountainGoal variable should exist', function() {
+			expect(devMountainGoal).toBeDefined()
+		})
+		it('should be the correct data type', function() {
+			expect(typeof devMountainGoal).toBe('object')
+		})
+	})
 	describe('Problem 6 - greeting', function() {
 		it('should exist', function() {
 			expect(greeting).toBeDefined()
@@ -218,9 +206,9 @@ describe('js-day1-basic-assessment', function() {
 			let secondAge = testAge++
 			expect(secondAge === age).toBe(true)
 		})
-    it('age should be the correct number', function () {
-      testAge = 999
-      expect(age === testAge).toBe(true)
-    })
+		it('age should be the correct number', function() {
+			testAge = 999
+			expect(age === testAge).toBe(true)
+		})
 	})
 })

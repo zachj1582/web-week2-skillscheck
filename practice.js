@@ -1,157 +1,129 @@
 //////////////////PROBLEM 1////////////////////
 
-//Create a variable called myName that is a string data type
+// Create a variable called 'myName' that's value is your name
 
 //Code here
 
 //////////////////PROBLEM 2////////////////////
 
-//Create a variable called myAge that is a number data type
+// Create a variable called 'faveNum' that's value is your favorite number
 
 //Code here
 
 //////////////////PROBLEM 3////////////////////
 
-//Create a variable called lovesCode that is a boolean data type
+// Create a variable called 'lovesCode' and set it to true
 
 //Code here
 
 //////////////////PROBLEM 4////////////////////
 
-//Create a variable called greatestFear that is undefined because we fear nothing
+// Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum (multiplication) of those two parameters.
 
 //Code here
 
 //////////////////PROBLEM 5////////////////////
 
-//Create a variable called devMountainGoal that is null because we are just starting out
+// Create a function called 'lovesCodeChecker' that takes in a single parameter called x. Check to see if x is equal to true. If it is, return true. If x does not equal true, return false
 
 //Code here
 
 //////////////////PROBLEM 6////////////////////
 
-//Create a function declaration called greeting that
-//accepts name as its only parameter.
-//greeting should return the string "Hello, "
-//plus the value of the name parameter.
+// Create a function called 'oddChecker' that takes in one parameter, num. Check to see if the number is even or odd. If it is odd, return 'the number is odd' or return 'the number is even' if it is even.
 
 //Code here
 
-
 //////////////////PROBLEM 7////////////////////
 
-//Rewrite the function greeting as a function expression.
-//Name it newGreeting.
+// Create a function called 'oddChecker' that takes in one parameter, num. Check to see if the number is even or odd. If it is odd, return 'the number is odd' or return 'the number is even' if it is even.
 
 //Code Here
 
 //////////////////PROBLEM 8////////////////////
 
-//Rewrite the function greeting as an arrow function.
-//Name it finalGreeting.
+// Create a copy of the faveColors array called 'colorCopy' using slice
 
 //Code Here
 
 //////////////////PROBLEM 9////////////////////
 
-//Create an array called groceries with the values
-//"apples", "milk", "eggs", "bread"
+// Add a fourth color to the end of the 'colorCopy' array using push
 
 //Code Here
 
 //////////////////PROBLEM 10////////////////////
 
-//Create an object saved to the variable dog.
-//The dog object should have the following properties:
-//name (a string), color (a string), age (a number),
-//and goodBoy (a boolean).
+// Create a new array called 'middleNums' with the slice method from the numbers array below.
+const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
-//...access the dog's name from the object and assign it to a
-//variable called devMountainClassPet.
+// Create an object called 'me' that has these keys with the correct values: firstName, state, age, greeter. firstName will be your name as a string. state will be your current state or providence as a string. age will be your age as a number. greeter will be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
 
 //Code Here
 
 //////////////////PROBLEM 11////////////////////
 
-//Write a function called nameCheck that takes in a name parameter. 
-//nameCheck should check if the name equals 'Steven'. If it does,
-// return 'What is up Steven?'
-//If the name parameter is Bryan, return 'Hey Bryan!'
-// If the name parameter is anything else, return 'Cool name, NAMEPARAM'
-// with NAMEPARAM being the name parameter being passed in
+// Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' to the answers array. If the number is LESS than or EQUAL to 100, push 'small' to the answers array. Return the answers array
 
 // Code here
 
 //////////////////PROBLEM 12////////////////////
 
-// Create a function called add that takes in two parameters
-// that will be numbers.
-// The add function should return the two parameters added together
-
-//Code Here
-
-//Now invoke add, passing in the numbers 3 and 4
-//storing the result in the variable mathSum.
+// Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
 //Code Here
 
 //////////////////PROBLEM 13////////////////////
 
-//Write a function called faveColorFinder that takes in one parameter called color
-// that will be a string.
-// If the passed in color equals 'red', return 'red is a great color'
-// If the passed in color equals 'green', return 'green is a solid favorite color'
-// If the passed in color equals 'black', return 'so trendy'
-// Otherwise, you should return the string 'you need to evaluate your favorite color choice'
+// Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
+let myNumbers = [3, 55, 788, 2, 1]
 
 // Code here
 
+//////////////////PROBLEM 14 - 17 Setup////////////////////
+
+// Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
+let myNumbers = [3, 55, 788, 2, 1]
+
 //////////////////PROBLEM 14////////////////////
 
-let duck = "cute";
+// First, with an arrow function let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
-function bathroom() {
-  let rubberDuck = "squeaky";
-  function bathtub() {
-    let sailorDuck = "nautical";
-  }
-}
-
-function pond() {
-  let realDuck = "fluffy";
-}
-
-//There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
-//all within different scopes.
-//Given the functions and variables above, edit the arrays
-//below to contain only the appropriate variable names
-//as strings.
-
-//This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-
-//This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-
-//This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-
-//This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+// Code Here
 
 //////////////////PROBLEM 15////////////////////
 
-//Create a variable called age with your age assigned to you
+// Now lets use .filter to only get the nubmer(s) greater than 100. Use an arrow function and call the new array 'filtered'
 
 // Code Here
 
-// FLASH FORWARD TO NEXT YEAR
-// reassign the value of age to be one greater than it was, because, we all get older
+//////////////////PROBLEM 16////////////////////
 
-// Code Here
+// Next up, reduce. Use .reduce to get the total of the array. call the new array 'total' and use an arrow function
 
-// Good news! We can live forever. Set your age to 999
+//////////////////PROBLEM 17////////////////////
 
-// Code Here
+// Last, lets use .forEach to find the index of each item in the array.Create a new array called myNumbersIndex to hold the indicies
+
+//////////////////PROBLEM 18////////////////////
+
+// Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
+const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
+
+//////////////////PROBLEM 19////////////////////
+
+// Using the people array, let's filter out everyone that isn't our friend to a new array called 'enemies'. Use .filter
+const people = [
+	{ name: 'Landy', friend: true, awesomeLevel: 10 },
+	{ name: 'Jeremy', friend: true, awesomeLevel: 10 },
+	{ name: 'Bart', friend: false, awesomeLevel: 3 },
+	{ name: 'Stephanie', friend: false, awesomeLevel: 6 },
+	{ name: 'Serena', friend: true, awesomeLevel: 8 },
+	{ name: 'George', friend: true, awesomeLevel: 7 }
+]
+
+//////////////////PROBLEM 20////////////////////
+
+// Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
