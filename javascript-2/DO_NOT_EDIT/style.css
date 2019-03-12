@@ -1,0 +1,32 @@
+/* DO NOT EDIT CODE BELOW */
+/* DO NOT EDIT CODE BELOW */
+/* DO NOT EDIT CODE BELOW */
+body {
+  font-family: "Nunito", sans-serif;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#poem-container {
+  width: 440px;
+  padding: 1.5em;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 30px 35px -7px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+}
+
+p {
+  font-size: 1.2em;
+}
+/* DO NOT EDIT CODE ABOVE */
+/* DO NOT EDIT CODE ABOVE */
+/* DO NOT EDIT CODE ABOVE */

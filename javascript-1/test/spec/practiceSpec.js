@@ -50,8 +50,8 @@ describe('Week Two Skills Check', function() {
 		it('should return "the number is odd" if the number is odd', function() {
 			expect(oddChecker(7)).toBe('the number is odd')
 		})
-		it('should return "the number is true" if the number is true', function() {
-			expect(oddChecker(4)).toBe('the number is true')
+		it('should return "the number is true" if the number is even', function() {
+			expect(oddChecker(4)).toBe('the number is even')
 		})
 	})
 
@@ -69,7 +69,7 @@ describe('Week Two Skills Check', function() {
 			expect(colorCopy).toBeDefined()
 		})
 		it('should contain the correct colors', function() {
-			expect(colorCopy).toEqual(['red', 'green', 'black'])
+			expect(faveColors[0] === colorCopy[0]).toEqual(true)
 		})
 	})
 
@@ -126,10 +126,8 @@ describe('Week Two Skills Check', function() {
 	})
 
 	describe('Problem 14 - doubled', function() {
-		it('should be made with an arrow function', function() {
-			let str = doubled.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('doubled should exist', function() {
+			expect(doubled).toBeDefined()
 		})
 		it('doubled should return the correct array', function() {
 			expect(doubled).toEqual([6, 110, 1576, 4, 2])
@@ -137,10 +135,8 @@ describe('Week Two Skills Check', function() {
 	})
 
 	describe('Problem 15 - filtered', function() {
-		it('should be made with an arrow function', function() {
-			let str = filtered.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('should exist', function() {
+			expect(filtered).toBeDefined()
 		})
 		it('filtered should return the correct array', function() {
 			expect(filtered).toEqual([788])
@@ -148,21 +144,17 @@ describe('Week Two Skills Check', function() {
 	})
 
 	describe('Problem 16 - total', function() {
-		it('should be made with an arrow function', function() {
-			let str = total.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('should exist', function() {
+			expect(total).toBeDefined()
 		})
 		it('filtered should return the correct array', function() {
-			expect(total).toEqual([3210])
+			expect(total).toEqual(849)
 		})
 	})
 
 	describe('Problem 17 - myNumbersIndex', function() {
-		it('should be made with an arrow function', function() {
-			let str = myNumbersIndex.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('should exist', function() {
+			expect(myNumbersIndex).toBeDefined()
 		})
 		it('myNumbersIndex should return the correct array', function() {
 			expect(myNumbersIndex).toEqual([0, 1, 2, 3, 4])
@@ -170,10 +162,8 @@ describe('Week Two Skills Check', function() {
 	})
 
 	describe('Problem 18 - forTheLoveOfGeorge', function() {
-		it('should be made with an arrow function', function() {
-			let str = forTheLoveOfGeorge.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('should exist', function() {
+			expect(forTheLoveOfGeorge).toBeDefined()
 		})
 		it('forTheLoveOfGeorge should return the correct array', function() {
 			expect(forTheLoveOfGeorge).toEqual(['George', 'George', 'George', 'George', 'George', 'George'])
@@ -181,10 +171,8 @@ describe('Week Two Skills Check', function() {
 	})
 
 	describe('Problem 19 - enemies', function() {
-		it('should be made with an arrow function', function() {
-			let str = enemies.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('should exist', function() {
+			expect(enemies).toBeDefined()
 		})
 		it('enemies should return the correct array', function() {
 			expect(enemies).toEqual([{ name: 'Bart', friend: false, awesomeLevel: 3 }, { name: 'Stephanie', friend: false, awesomeLevel: 6 }])
@@ -192,10 +180,8 @@ describe('Week Two Skills Check', function() {
 	})
 
 	describe('Problem 20 - totallyAwesome', function() {
-		it('should be made with an arrow function', function() {
-			let str = totallyAwesome.toString()
-			let match = !!str.match(/=>/)
-			expect(match).toBe(true)
+		it('should exist', function() {
+			expect(totallyAwesome).toBeDefined()
 		})
 		it('totallyAwesome should return the correct array', function() {
 			expect(totallyAwesome).toEqual(44)

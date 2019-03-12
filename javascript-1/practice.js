@@ -2,7 +2,7 @@
 
 // Create a variable called 'myName' that's value is your name
 
-//Code here
+// Code here
 
 //////////////////PROBLEM 2////////////////////
 
@@ -55,7 +55,7 @@ const faveColors = ['red', 'green', 'black']
 
 //////////////////PROBLEM 10////////////////////
 
-// Create a new array called 'middleNums' with the slice method from the numbers array below.
+// Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
@@ -68,7 +68,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 //////////////////PROBLEM 12////////////////////
 
-// Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' to the answers array. If the number is LESS than or EQUAL to 100, push 'small' to the answers array. Return the answers array
+// Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
 // Code here
 
@@ -81,7 +81,7 @@ const numbers = [1, 2, 3, 4, 5]
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
-let myNumbers = [3, 55, 788, 2, 1]
+const myNumbers = [3, 55, 788, 2, 1]
 
 
 //////////////////PROBLEM 14////////////////////
@@ -100,14 +100,20 @@ let myNumbers = [3, 55, 788, 2, 1]
 
 // Next up, reduce. Use .reduce and an arrow function to get the total of the array. call the new array 'total' and use an arrow function
 
+// Code Here
+
 //////////////////PROBLEM 17////////////////////
 
-// Last, lets use .forEach and an arrow function to find the index of each item in the array. Call the function myNumbersIndex. Create a new array inside of the forEach called myArr to hold the indicies. Return myArr
+// Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
+
+// Code Here
 
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map and an arrow function. Call the new array 'forTheLoveOfGeorge'
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
+
+// Code Here
 
 //////////////////PROBLEM 19////////////////////
 
@@ -121,6 +127,10 @@ const people = [
 	{ name: 'George', friend: true, awesomeLevel: 7 }
 ]
 
+// Code Here
+
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce and an arrow function
+
+// Code Here
