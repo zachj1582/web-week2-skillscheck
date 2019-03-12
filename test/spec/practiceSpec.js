@@ -16,7 +16,7 @@ describe('Week Two Skills Check', function() {
 			expect(typeof faveNum).toBe('number')
 		})
 	})
-	describe('Problem 3 - myName', function() {
+	describe('Problem 3 - lovesCode', function() {
 		it('lovesCode variable should exist', function() {
 			expect(lovesCode).toBeDefined()
 		})
@@ -24,191 +24,181 @@ describe('Week Two Skills Check', function() {
 			expect(typeof lovesCode).toBe('boolean')
 		})
 	})
-	describe('Problem 4 - greatestFear', function() {
-		it('greatestFear variable should exist', function() {
-			expect(greatestFear).toBeUndefined()
+	describe('Problem 4 - sum', function() {
+		it('sum function should exist', function() {
+			expect(sum).toBeDefined()
+		})
+		it('sum function should return the correct value', function() {
+			expect(sum(3, 3)).toEqual(6)
 		})
 	})
-	describe('Problem 5 - devMountainGoal', function() {
-		it('devMountainGoal variable should exist', function() {
-			expect(devMountainGoal).toBeDefined()
+	describe('Problem 5 - lovesCodeChecker', function() {
+		it('lovesCodeChecker variable should exist', function() {
+			expect(lovesCodeChecker).toBeDefined()
 		})
 		it('should be the correct data type', function() {
-			expect(typeof devMountainGoal).toBe('object')
+			expect(lovesCodeChecker(true)).toEqual(true)
+		})
+		it('should be the correct data type', function() {
+			expect(lovesCodeChecker(false)).toEqual(false)
 		})
 	})
-	describe('Problem 6 - greeting', function() {
-		it('should exist', function() {
-			expect(greeting).toBeDefined()
+	describe('Problem 6 - oddChecker', function() {
+		it('oddChecker should exist', function() {
+			expect(oddChecker).toBeDefined()
 		})
-		it('should be made with a functon delceration', function() {
-			let str = greeting.toString()
-			let match = !!str.match(/function greeting\s?\(/)
-			expect(match).toBe(true)
+		it('should return "the number is odd" if the number is odd', function() {
+			expect(oddChecker(7)).toBe('the number is odd')
 		})
-		it('should return "Hello, Trogdor" if passed "Trogdor"', function() {
-			expect(greeting('Trogdor')).toBe('Hello, Trogdor')
-		})
-		it('should return "Hello, undefined" if passed nothing', function() {
-			expect(greeting()).toBe('Hello, undefined')
+		it('should return "the number is true" if the number is true', function() {
+			expect(oddChecker(4)).toBe('the number is true')
 		})
 	})
 
-	describe('Problem 7 - newGreeting', function() {
-		it('should exist', function() {
-			expect(newGreeting).toBeDefined()
+	describe('Problem 7 - iLove', function() {
+		it('iLove should exist', function() {
+			expect(iLove).toBeDefined()
 		})
-		it('should be made with an anonymous functon assignment', function() {
-			let str = newGreeting.toString()
-			let match = !!str.match(/function\s*\(/)
-			expect(match).toBe(true)
-		})
-		it('should return "Hello, Trogdor" if passed "Trogdor"', function() {
-			expect(newGreeting('Trogdor')).toBe('Hello, Trogdor')
-		})
-		it('should return "Hello, undefined" if passed nothing', function() {
-			expect(newGreeting()).toBe('Hello, undefined')
+		it('should return "Bryan loves skateboarding" if passed "Bryan" and "skateboarding"', function() {
+			expect(iLove('Bryan', 'skateboarding')).toBe('Bryan loves skateboarding')
 		})
 	})
 
-	describe('Problem 8 - finalGreeting', function() {
-		it('should exist', function() {
-			expect(finalGreeting).toBeDefined()
+	describe('Problem 8 - colorCopy', function() {
+		it('colorCopy should exist', function() {
+			expect(colorCopy).toBeDefined()
 		})
-		it('should be made with an arrow function assignment', function() {
-			let str = finalGreeting.toString()
+		it('should contain the correct colors', function() {
+			expect(colorCopy).toEqual(['red', 'green', 'black'])
+		})
+	})
+
+	describe('Problem 9 - colorCopy add color', function() {
+		it('colorCopy should have a fourth color added to it', function() {
+			expect(colorCopy.length).toBe(4)
+		})
+	})
+
+	describe('Problem 10 - middleNums', function() {
+		it('middleNums should exist', function() {
+			expect(middleNums).toBeDefined()
+		})
+		it('middleNums should contain the correct numbers', function() {
+			expect(middleNums).toEqual([2, 3, 4])
+		})
+	})
+
+	describe('Problem 11 - me', function() {
+		it('me should exist', function() {
+			expect(me).toBeDefined()
+			expect(typeof me).toBe('object')
+		})
+		it('me should have the correct key:value pairs', function() {
+			expect(typeof me.firstName).toEqual('string')
+			expect(typeof me.state).toEqual('string')
+			expect(typeof me.age).toEqual('number')
+			expect(typeof me.greeter).toEqual('function')
+		})
+	})
+
+	describe('Problem 12 - bigOrSmall', function() {
+		it('bigOrSmall should exist', function() {
+			expect(bigOrSmall).toBeDefined()
+		})
+		it('bigOrSmall should return the correct array', function() {
+			expect(bigOrSmall([100, 3, 200, 5, 101])).toEqual([
+				'small',
+				'small',
+				'big',
+				'small',
+				'big'
+			])
+		})
+	})
+
+	describe('Problem 13 - arrayReverser', function() {
+		it('arrayReverser should exist', function() {
+			expect(arrayReverser).toBeDefined()
+		})
+		it('arrayReverser should return the correct array', function() {
+			expect(arrayReverser([1, 2, 3])).toEqual([3, 2, 1])
+		})
+	})
+
+	describe('Problem 14 - doubled', function() {
+		it('should be made with an arrow function', function() {
+			let str = doubled.toString()
 			let match = !!str.match(/=>/)
 			expect(match).toBe(true)
 		})
-		it('should return "Hello, Trogdor" if passed "Trogdor"', function() {
-			expect(finalGreeting('Trogdor')).toBe('Hello, Trogdor')
-		})
-		it('should return "Hello, undefined" if passed nothing', function() {
-			expect(finalGreeting()).toBe('Hello, undefined')
+		it('doubled should return the correct array', function() {
+			expect(doubled).toEqual([6, 110, 1576, 4, 2])
 		})
 	})
 
-	describe('Problem 9 - ', function() {
-		it('groceries should exist', function() {
-			expect(groceries).toBeDefined()
+	describe('Problem 15 - filtered', function() {
+		it('should be made with an arrow function', function() {
+			let str = filtered.toString()
+			let match = !!str.match(/=>/)
+			expect(match).toBe(true)
 		})
-		it('groceries should contain given values', function() {
-			let vals = ['apples', 'milk', 'eggs', 'bread']
-			let allGood = arrayIncludes(groceries, vals)
-			expect(allGood).toBe(true)
-		})
-	})
-
-	describe('Problem 10 - ', function() {
-		it('dog should exist with the right properties', function() {
-			expect(dog).toBeDefined()
-			expect(typeof dog.name).toEqual('string')
-			expect(typeof dog.color).toEqual('string')
-			expect(typeof dog.age).toEqual('number')
-			expect(typeof dog.goodBoy).toEqual('boolean')
-		})
-		it('should properly assign the dog name', function() {
-			expect(devMountainClassPet).toBe(dog.name)
+		it('filtered should return the correct array', function() {
+			expect(filtered).toEqual([788])
 		})
 	})
 
-	describe('Problem 11 - ', function() {
-		it('nameCheck should exist', function() {
-			expect(nameCheck).toBeDefined()
-			expect(typeof nameCheck).toBe('function')
+	describe('Problem 16 - total', function() {
+		it('should be made with an arrow function', function() {
+			let str = total.toString()
+			let match = !!str.match(/=>/)
+			expect(match).toBe(true)
 		})
-		it('nameCheck should return the correct string when passed Steven', function() {
-			expect(nameCheck('Steven')).toEqual('What is up Steven?')
-		})
-		it('nameCheck should return the correct string when passed Bryan', function() {
-			expect(nameCheck('Bryan')).toEqual('Hey Bryan!')
-		})
-		it('nameCheck should return the correct string when passed Joe', function() {
-			expect(nameCheck('Joe')).toEqual('Cool name, Joe')
+		it('filtered should return the correct array', function() {
+			expect(total).toEqual([3210])
 		})
 	})
 
-	describe('Problem 12 - ', function() {
-		it('add should exist', function() {
-			expect(add).toBeDefined()
+	describe('Problem 17 - myNumbersIndex', function() {
+		it('should be made with an arrow function', function() {
+			let str = myNumbersIndex.toString()
+			let match = !!str.match(/=>/)
+			expect(match).toBe(true)
 		})
-		it('add should return the sum of its two parameters', function() {
-			expect(add(1, 2) === 3 && add('hello', 'world') === 'helloworld').toBe(true)
-		})
-
-		it('mathSum should be 7', function() {
-			expect(mathSum === 7).toBe(true)
+		it('myNumbersIndex should return the correct array', function() {
+			expect(myNumbersIndex).toEqual([0, 1, 2, 3, 4])
 		})
 	})
 
-	describe('Problem 13 - ', function() {
-		it('faveColorFinder should exist', function() {
-			expect(faveColorFinder).toBeDefined()
-			expect(typeof faveColorFinder).toBe('function')
+	describe('Problem 18 - forTheLoveOfGeorge', function() {
+		it('should be made with an arrow function', function() {
+			let str = forTheLoveOfGeorge.toString()
+			let match = !!str.match(/=>/)
+			expect(match).toBe(true)
 		})
-		it('faveColorFinder should return the correct string when passed red', function() {
-			expect(faveColorFinder('red')).toEqual('red is a great color')
-		})
-		it('faveColorFinder should return the correct string when passed green', function() {
-			expect(faveColorFinder('green')).toEqual('green is a solid favorite color')
-		})
-		it('faveColorFinder should return the correct string when passed black', function() {
-			expect(faveColorFinder('black')).toEqual('so trendy')
-		})
-		it('nameCheck should return the correct string when passed any other color', function() {
-			expect(faveColorFinder('orange')).toEqual(
-				'you need to evaluate your favorite color choice'
-			)
+		it('forTheLoveOfGeorge should return the correct array', function() {
+			expect(forTheLoveOfGeorge).toEqual(['George', 'George', 'George', 'George', 'George', 'George'])
 		})
 	})
 
-	describe('Problem 14 - ', function() {
-		it('globalScope should contain only variables accessible in the global scope', function() {
-			let containsGlobals = arrayIncludes(globalScope, ['duck'])
-			let containsOutOfScopeVars =
-				globalScope.includes('sailorDuck') &&
-				globalScope.includes('rubberDuck') &&
-				globalScope.includes('realDuck')
-			expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
+	describe('Problem 19 - enemies', function() {
+		it('should be made with an arrow function', function() {
+			let str = enemies.toString()
+			let match = !!str.match(/=>/)
+			expect(match).toBe(true)
 		})
-		it('bathroomScope should contain only variables accessible in the scope of the function bathroom', function() {
-			let containsGlobals = arrayIncludes(bathroomScope, ['duck', 'rubberDuck'])
-			let containsOutOfScopeVars =
-				bathroomScope.includes('sailorDuck') || bathroomScope.includes('realDuck')
-			expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
-		})
-		it('bathtubScope should contain only variables accessible in the scope of the function bathtub', function() {
-			let containsGlobals = arrayIncludes(bathtubScope, [
-				'duck',
-				'rubberDuck',
-				'sailorDuck'
-			])
-			let containsOutOfScopeVars = bathtubScope.includes('realDuck')
-			expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
-		})
-		it('pondScope should contain only variables accessible in the scope of the function pond', function() {
-			let containsGlobals = arrayIncludes(pondScope, ['duck', 'realDuck'])
-			let containsOutOfScopeVars =
-				pondScope.includes('sailorDuck') && pondScope.includes('rubberDuck')
-			expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
+		it('enemies should return the correct array', function() {
+			expect(enemies).toEqual([{ name: 'Bart', friend: false, awesomeLevel: 3 }, { name: 'Stephanie', friend: false, awesomeLevel: 6 }])
 		})
 	})
 
-	describe('Problem 15 - ', function() {
-		let testAge = age
-		it('age should exist', function() {
-			expect(age).toBeDefined()
+	describe('Problem 20 - totallyAwesome', function() {
+		it('should be made with an arrow function', function() {
+			let str = totallyAwesome.toString()
+			let match = !!str.match(/=>/)
+			expect(match).toBe(true)
 		})
-		it('age should be a number', function() {
-			expect(typeof age).toBe('number')
-		})
-		it('age should be the correct number', function() {
-			let secondAge = testAge++
-			expect(secondAge === age).toBe(true)
-		})
-		it('age should be the correct number', function() {
-			testAge = 999
-			expect(age === testAge).toBe(true)
+		it('totallyAwesome should return the correct array', function() {
+			expect(totallyAwesome).toEqual(44)
 		})
 	})
 })
