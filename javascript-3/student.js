@@ -1,5 +1,5 @@
 //////////////////SETUP////////////////////
-// Close all other index.html files and open the index.html file in javascript-2/index.html. You should see an input and button that says "Add Item"
+// Close all other index.html files and open the index.html file in javascript-3/index.html. You should see an input and button that says "Add Item"
 
 //////////////////STEP 1////////////////////
 //Create an array called 'groceries' that contains three grocery items as a string
