@@ -18,7 +18,7 @@
 
 //////////////////PROBLEM 4////////////////////
 
-// Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum (multiplication) of those two parameters.
+// Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum of those two parameters.
 
 //Code here
 
