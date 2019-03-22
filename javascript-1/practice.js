@@ -86,19 +86,19 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 //////////////////PROBLEM 14////////////////////
 
-// First, with an arrow function let's use .map to create a new array that doubles each number. Call the new array 'doubled'
+// First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 // Code Here
 
 //////////////////PROBLEM 15////////////////////
 
-// Now lets use .filter and an arrow function to only get the nubmer(s) greater than 100. Use an arrow function and call the new array 'filtered'
+// Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
 
 // Code Here
 
 //////////////////PROBLEM 16////////////////////
 
-// Next up, reduce. Use .reduce and an arrow function to get the total of the array. call the new array 'total' and use an arrow function
+// Next up, reduce to get the total of the array. call the new array 'total'
 
 // Code Here
 
@@ -110,14 +110,14 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 //////////////////PROBLEM 18////////////////////
 
-// Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map and an arrow function. Call the new array 'forTheLoveOfGeorge'
+// Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
 
 //////////////////PROBLEM 19////////////////////
 
-// Using the people array, let's filter out everyone that isn't our friend to a new array called 'enemies'. Use .filter and an arrow function
+// Using the people array, let's filter out everyone that isn't our friend to a new array called 'enemies'. Use .filter()
 const people = [
 	{ name: 'Landy', friend: true, awesomeLevel: 10 },
 	{ name: 'Jeremy', friend: true, awesomeLevel: 10 },
@@ -131,6 +131,6 @@ const people = [
 
 //////////////////PROBLEM 20////////////////////
 
-// Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce and an arrow function
+// Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
