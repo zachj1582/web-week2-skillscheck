@@ -1,8 +1,5 @@
 # SkillsCheck
 
-# DO NOT DO IF TODAY IS NOT THURSDAY OF WEEK 2.
-# IF IT IS THURSDAY OF WEEK 2, CONTINUE.
-
 ## Summary
 
 * This project consists of 4 JavaScript parts and 1 HTML/CSS mockup.
