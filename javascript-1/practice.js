@@ -119,12 +119,12 @@ const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Using the people array, filter out everyone that isn't a friend into a new array called 'enemies'. Use .filter(). 
 const people = [
-	{ name: 'Landy', friend: true, awesomeLevel: 10 },
-	{ name: 'Jeremy', friend: true, awesomeLevel: 10 },
-	{ name: 'Bart', friend: false, awesomeLevel: 3 },
-	{ name: 'Stephanie', friend: false, awesomeLevel: 6 },
-	{ name: 'Serena', friend: true, awesomeLevel: 8 },
-	{ name: 'George', friend: true, awesomeLevel: 7 }
+	{ name: 'Matt', friend: true, awesomeLevel: 10 },
+	{ name: 'Matias', friend: true, awesomeLevel: 10 },
+	{ name: 'Catie', friend: false, awesomeLevel: 3 },
+	{ name: 'Samantha', friend: false, awesomeLevel: 4 },
+	{ name: 'Jonathan', friend: true, awesomeLevel: 8 },
+	{ name: 'Josh', friend: true, awesomeLevel: 7 }
 ]
 
 // Code Here
