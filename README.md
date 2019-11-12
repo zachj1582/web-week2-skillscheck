@@ -2,13 +2,15 @@
 
 ## Summary
 
+Skills Check 1 is an opportunity to check your progress in the course thus far.
+
 * This project consists of 4 JavaScript parts and 1 HTML/CSS mockup.
-  * The HTML/CSS module has instructions in it's README for expectations.
-  * The JavaScript modules have instructions and tests associated using SpecRunner that you will open in the browser.
+  * The HTML/CSS module has instructions in it's README.
+  * The JavaScript modules have instructions and tests associated with them. To check your progress, open the corresponding SpecRunner in the browser.
   * If you get stuck, move on and come back to the problem later.
 * You have the whole day to work on this and should get as far as you can.
-* Your mentors can help push you in the right direction, but the code should be your own.
-* Use this as an opportunity to check your progress and work with your instructor to decide what your focus should be in the coming weeks during your evenings and weekends.
+* Your mentors can help point you in the right direction, but they cannot help you write any code. Mentors can also help with any technical issues (computer won't start, browser won't launch, etc.). If you're unclear whether your issue is code related or technical, ask a mentor and they will inform you.
+
 
 ## Contributions
 
