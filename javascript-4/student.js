@@ -17,9 +17,9 @@
 
 // The superPowers key value should be an array with your three super powers as strings. e.g. ['Mega Blast', 'Thunder From Down Under', 'Calamitous Crop Duster']
 
-//  The superPowerXP key will be a method that returns a random number between 1-100. Use Math.floor(Math.random() * 100) + 1 
+//  The superPowerXP key value should be a method that returns a random number between 1-100. Use Math.floor(Math.random() * 100) + 1 
 
-// The profileImage key should be set to this url `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`.
+// The profileImage key value should be a method that returns this url `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`.
 
 // CODE HERE
 
