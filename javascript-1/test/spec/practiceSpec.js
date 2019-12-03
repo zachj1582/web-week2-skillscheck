@@ -175,7 +175,7 @@ describe('Week Two Skills Check', function () {
 			expect(enemies).toBeDefined()
 		})
 		it('enemies should return the correct array', function () {
-			expect(enemies).toEqual([{ name: 'Bart', friend: false, awesomeLevel: 3 }, { name: 'Stephanie', friend: false, awesomeLevel: 6 }])
+			expect(enemies).toEqual([{ name: 'Catie', friend: false, awesomeLevel: 3 }, { name: 'Samantha', friend: false, awesomeLevel: 4 }])
 		})
 	})
 
