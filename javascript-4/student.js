@@ -1,5 +1,5 @@
 //////////////////SETUP////////////////////
-// Close all other index.html files and open the index.html file in javascript-4/index.html. You should see an input and button that says "Add Item"
+// Close all other index.html files and open the index.html file in javascript-4/index.html.
 
 //////////////////Step 1////////////////////
 // Create a new array called 'faveColors' and assign it a value of your three favorite colors as strings.
