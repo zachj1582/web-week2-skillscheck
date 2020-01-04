@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav {
+    height: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 50px;
+    color: whitesmoke;
+}
+.nav-bar {
+    height: 20px;
+    width: 25%;
+    color: whitesmoke;
+}
+
+#empty-container{
+    width: 25%;
+}
+
+#company {
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-size-adjust: 70px;
+    font-size: 50px;
+}
+
+#black-container {
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    font-size: 8vh;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#turq-cont {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.turq-box {
+    height: 25vh;
+    width: 25vw;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+#orange-cont {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orange-box {
+    height: 25vh;
+    width: 40vw;
+    background-color: rgb(228, 177, 110);
+}
+
+#last-cont {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.bot-box {
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#bot-box-right{
+    background-image: url(https://i.imgur.com/k0G7Gvt.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(44, 33, 95);
+    
+}
